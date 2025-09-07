@@ -114,7 +114,7 @@ export default function AboutUsPage() {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="relative pt-24 pb-20 bg-gradient-to-br from-facelab-green/10 to-facelab-white">
+      <section className="relative pt-36 pb-20 bg-gradient-to-br from-facelab-green/10 to-facelab-white">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
             <span className="facelab-black">About </span>
@@ -168,7 +168,7 @@ export default function AboutUsPage() {
                   dental landscape.
                 </p>
                 <p>
-                  Today, we're proud to be pioneers in 3D smile design, digital dentistry, and 
+                  Today, we&apos;re proud to be pioneers in 3D smile design, digital dentistry, and 
                   advanced orthodontic techniques. But beyond the technology, what drives us is 
                   our commitment to helping each patient achieve not just a beautiful smile, 
                   but renewed confidence and improved quality of life.
@@ -200,9 +200,9 @@ export default function AboutUsPage() {
                 <CardContent className="space-y-4">
                   <h3 className="text-2xl font-semibold facelab-purple">Our Mission</h3>
                   <p className="text-gray-700 leading-relaxed">
-                    "To transform lives through exceptional dental care, innovative technology, 
+                    &quot;To transform lives through exceptional dental care, innovative technology, 
                     and comprehensive education that empowers both patients and dental professionals 
-                    to achieve optimal oral health and beautiful smiles."
+                    to achieve optimal oral health and beautiful smiles.&quot;
                   </p>
                   
                   <Separator className="my-6" />
