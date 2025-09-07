@@ -241,7 +241,7 @@ export default function ConsultingPage() {
                 <CardContent className="space-y-6">
                   {/* Key Features */}
                   <div>
-                    <h4 className="font-semibold text-sm mb-3">What's Included:</h4>
+                    <h4 className="font-semibold text-sm mb-3">What&apos;s Included:</h4>
                     <div className="space-y-2">
                       {service.features.map((feature, index) => (
                         <div key={index} className="flex items-start gap-2 text-sm text-gray-600">
