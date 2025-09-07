@@ -81,7 +81,7 @@ export default function ContactPage() {
         preferredTime: "",
         message: ""
       });
-    } catch (error) {
+    } catch {
       toast.error("Something went wrong. Please try again or call us directly.");
     } finally {
       setIsSubmitting(false);
@@ -132,7 +132,7 @@ export default function ContactPage() {
               <div>
                 <h2 className="text-3xl font-bold mb-6 facelab-black">Get in Touch</h2>
                 <p className="text-gray-600 text-lg">
-                  We're here to help you achieve the smile you've always wanted. 
+                  We&apos;re here to help you achieve the smile you&apos;ve always wanted. 
                   Contact us to schedule your appointment or learn more about our services.
                 </p>
               </div>
@@ -398,7 +398,7 @@ export default function ContactPage() {
                     
                     <p className="text-sm text-gray-500 text-center">
                       By submitting this form, you agree to our privacy policy. 
-                      We'll contact you within 24 hours to confirm your appointment.
+                      We&apos;ll contact you within 24 hours to confirm your appointment.
                     </p>
                   </form>
                 </CardContent>

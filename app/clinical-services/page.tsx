@@ -2,11 +2,9 @@ import { Navigation } from "@/components/layout/Navigation";
 import { Footer } from "@/components/layout/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Separator } from "@/components/ui/separator";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { siteConfig } from "@/lib/data/content";
 import Link from "next/link";
-import Image from "next/image";
 import { ArrowRight, Calendar, CheckCircle, Star, Users, Clock } from "lucide-react";
 
 export default function ClinicalServicesPage() {
@@ -102,7 +100,7 @@ export default function ClinicalServicesPage() {
               Before & After Results
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              See the amazing transformations we've achieved for our patients. 
+              See the amazing transformations we&apos;ve achieved for our patients. 
               Real results from real people who trusted us with their smiles.
             </p>
           </div>
@@ -306,7 +304,7 @@ export default function ClinicalServicesPage() {
           </h2>
           <p className="text-xl mb-8 facelab-black opacity-80">
             Book your consultation today and discover how we can help you achieve 
-            the smile you've always wanted.
+            the smile you&apos;ve always wanted.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

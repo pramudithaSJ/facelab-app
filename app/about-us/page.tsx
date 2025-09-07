@@ -1,7 +1,7 @@
 import { Navigation } from "@/components/layout/Navigation";
 import { Footer } from "@/components/layout/Footer";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardTitle } from "@/components/ui/card";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
@@ -168,7 +168,7 @@ export default function AboutUsPage() {
                   dental landscape.
                 </p>
                 <p>
-                  Today, we're proud to be pioneers in 3D smile design, digital dentistry, and 
+                  Today, we&apos;re proud to be pioneers in 3D smile design, digital dentistry, and 
                   advanced orthodontic techniques. But beyond the technology, what drives us is 
                   our commitment to helping each patient achieve not just a beautiful smile, 
                   but renewed confidence and improved quality of life.
@@ -200,9 +200,9 @@ export default function AboutUsPage() {
                 <CardContent className="space-y-4">
                   <h3 className="text-2xl font-semibold facelab-purple">Our Mission</h3>
                   <p className="text-gray-700 leading-relaxed">
-                    "To transform lives through exceptional dental care, innovative technology, 
+                    &quot;To transform lives through exceptional dental care, innovative technology, 
                     and comprehensive education that empowers both patients and dental professionals 
-                    to achieve optimal oral health and beautiful smiles."
+                    to achieve optimal oral health and beautiful smiles.&quot;
                   </p>
                   
                   <Separator className="my-6" />

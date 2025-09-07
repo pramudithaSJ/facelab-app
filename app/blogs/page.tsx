@@ -4,20 +4,17 @@ import { useState } from "react";
 import { Navigation } from "@/components/layout/Navigation";
 import { Footer } from "@/components/layout/Footer";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { blogCategories } from "@/lib/data/content";
 import { getBlogPosts, BlogPost } from "@/lib/data/blog-data";
 import Link from "next/link";
-import Image from "next/image";
 import { 
   Search, 
-  Calendar, 
   Clock, 
-  ArrowRight, 
-  User,
+  ArrowRight,
   BookOpen,
   Sparkles,
   TrendingUp,
