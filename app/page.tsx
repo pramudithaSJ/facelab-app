@@ -22,7 +22,7 @@ export default function Home() {
             </h1>
             
             <p className="text-xl md:text-2xl text-gray-600 max-w-2xl mx-auto">
-              Advanced dental care by Dr. Wathsala & Dr. Manjula specializing in 
+              World-class clinical care, professional training, in digital 
               <span className="facelab-purple font-semibold"> orthodontics</span>, 
               <span className="facelab-purple font-semibold"> facial surgery</span>, and 
               <span className="facelab-purple font-semibold"> 3D smile design</span>.

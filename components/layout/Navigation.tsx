@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { ResponsiveLogo, Logo } from "@/components/ui/Logo";
 import { navigationItems } from "@/lib/data/content";
 import { Menu, X } from "lucide-react";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
@@ -14,9 +15,11 @@ export function Navigation() {
     <header className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 w-full max-w-6xl px-4">
       {/* Desktop Navigation */}
       <nav className="hidden lg:flex items-center justify-between px-6 py-3 glassmorphism rounded-full">
-        <Link href="/" className="text-xl font-bold facelab-purple">
-          FaceLab
-        </Link>
+        <ResponsiveLogo 
+          variant="primary" 
+          priority={true}
+          className="flex-shrink-0"
+        />
         
         <div className="flex items-center gap-8">
           {navigationItems.map((item) => (
@@ -39,9 +42,11 @@ export function Navigation() {
 
       {/* Mobile Navigation */}
       <nav className="lg:hidden flex items-center justify-between px-4 py-3 glassmorphism rounded-full">
-        <Link href="/" className="text-xl font-bold facelab-purple">
-          FaceLab
-        </Link>
+        <ResponsiveLogo 
+          variant="primary" 
+          priority={true}
+          className="flex-shrink-0"
+        />
         
         <Dialog open={isOpen} onOpenChange={setIsOpen}>
           <DialogTrigger asChild>
@@ -57,13 +62,15 @@ export function Navigation() {
           
           <DialogContent className="w-full h-full max-w-full max-h-full p-0 bg-facelab-white/95 backdrop-blur-lg">
             <div className="flex flex-col items-center justify-center h-full space-y-8 p-8">
-              <Link
-                href="/"
-                className="text-3xl font-bold facelab-purple mb-8"
-                onClick={() => setIsOpen(false)}
-              >
-                FaceLab
-              </Link>
+              <div className="mb-8" onClick={() => setIsOpen(false)}>
+                <Logo
+                  variant="primary"
+                  size="xl"
+                  orientation="horizontal"
+                  href="/"
+                  className="transition-transform duration-200 hover:scale-105"
+                />
+              </div>
               
               {navigationItems.map((item) => (
                 <Link
