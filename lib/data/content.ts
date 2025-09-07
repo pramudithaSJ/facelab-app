@@ -64,10 +64,40 @@ export const blogCategories = [
 ];
 
 export const navigationItems = [
-  { name: "Clinical Services", href: "/clinical-services" },
-  { name: "Education", href: "/education" },
-  { name: "Consulting", href: "/consulting" },
-  { name: "About Us", href: "/about-us" },
-  { name: "Contact", href: "/contact" },
-  { name: "Blogs", href: "/blogs" }
+  { 
+    name: "Clinical Services", 
+    href: "/clinical-services",
+    description: "Orthodontics, Surgery & 3D Smile Design",
+    icon: "🦷"
+  },
+  { 
+    name: "Education", 
+    href: "/education",
+    description: "Professional Training & Certifications",
+    icon: "🎓"
+  },
+  { 
+    name: "Consulting", 
+    href: "/consulting",
+    description: "Practice Growth & Business Solutions",
+    icon: "💼"
+  },
+  { 
+    name: "About Us", 
+    href: "/about-us",
+    description: "Meet Dr. Wathsala & Dr. Manjula",
+    icon: "👨‍⚕️"
+  },
+  { 
+    name: "Contact", 
+    href: "/contact",
+    description: "Book Consultation & Get Directions",
+    icon: "📞"
+  },
+  { 
+    name: "Blogs", 
+    href: "/blogs",
+    description: "Tips, Stories & Latest Updates",
+    icon: "📝"
+  }
 ];
