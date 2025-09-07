@@ -93,7 +93,7 @@ export default function ContactPage() {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="relative pt-24 pb-20 bg-gradient-to-br from-facelab-purple/10 to-facelab-white">
+      <section className="relative pt-24 pb-20 mt-16 bg-gradient-to-br from-facelab-purple/10 to-facelab-white">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
             <span className="facelab-black">Contact </span>
