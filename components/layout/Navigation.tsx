@@ -14,6 +14,7 @@ export function Navigation() {
   return (
     <header className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 w-full max-w-6xl px-4">
       {/* Desktop Navigation */}
+      {/* Use hidden lg:flex to show on large screens and above */}
       <nav className="hidden lg:flex items-center justify-between px-6 py-3 glassmorphism rounded-full">
         <ResponsiveLogo 
           variant="primary" 
