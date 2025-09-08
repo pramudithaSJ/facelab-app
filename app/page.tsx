@@ -13,7 +13,7 @@ export default function Home() {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-facelab-purple/10 to-facelab-green/10 pt-20">
+      <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-facelab-purple to-facelab-green pt-20">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <div className="space-y-8 max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
